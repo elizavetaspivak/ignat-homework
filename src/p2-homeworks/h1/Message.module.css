@@ -1,0 +1,63 @@
+.message{
+    width: 450px;
+}
+
+.message img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    position: relative;
+    top: 95px;
+    z-index: 5;
+}
+
+.name{
+    color: fuchsia;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.time{
+    color: gray;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 90%;
+}
+
+.text {
+    width: 300px;
+    margin: 0 auto;
+    background: black;
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    position: relative;
+    line-height: 1.5em;
+}
+
+.text::before, .text::after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .5em;
+    width: 1.8em;
+    height: 1.8em;
+    border: .5em solid white;
+    border-radius: 50%;
+}
+
+.text::before {
+    border-top: none;
+    height: .9em;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: black;
+    border-color: black;
+    margin-right: -.9em;
+}
