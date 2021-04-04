@@ -1,0 +1,22 @@
+.link{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    transition-duration: 300ms;
+    transform: translate(-220px);
+}
+
+.header:hover{
+    transition-duration: 300ms;
+    transform: translate(0);
+}
+
+.block{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
