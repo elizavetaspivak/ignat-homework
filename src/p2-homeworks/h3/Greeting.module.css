@@ -1,22 +1,35 @@
 .greeting{
     display: flex;
     align-items: flex-start;
+    margin-top: 20px;
 }
 
 .error {
     color: red;
     height: 21px;
-    margin-left: 10px;
-
+    margin-left: 20px;
 }
 
 .input {
     margin-right: 10px;
     border: 1px solid black;
+    outline: none;
+    margin-left: 20px;
 }
 
 .errorInput{
     margin-right: 10px;
     border: 1px solid red;
+    outline: none;
+    margin-left: 20px;
+}
+
+.count{
+    margin-left: 10px;
+    color: blue;
+}
+
+.add{
+    background-color: lightblue;
     outline: none;
 }

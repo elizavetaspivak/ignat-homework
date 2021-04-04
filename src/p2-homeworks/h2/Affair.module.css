@@ -1,0 +1,14 @@
+.affair{
+    display: flex;
+    width: 500px;
+    margin: 20px;
+}
+
+.name{
+    width: 80px;
+    padding-right: 20px;
+}
+
+.priority{
+    width: 70px;
+}

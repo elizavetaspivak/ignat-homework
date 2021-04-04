@@ -1,5 +1,5 @@
 .blue {
-    border-bottom: 5px solid blue;
+    border: 1px solid blue;
 }
 
 .column {
@@ -10,4 +10,9 @@
 
 .testSpanError {
     color: blue;
+}
+
+.input:focus{
+    outline: none;
+    border: blue solid 2px;
 }

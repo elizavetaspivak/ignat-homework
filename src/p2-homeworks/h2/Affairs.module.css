@@ -1,3 +1,18 @@
 .someClass {
+    margin: 0 auto;
+}
 
+.buttonBlock{
+    margin: 20px;
+}
+
+.button{
+    margin-right: 10px;
+    outline: none;
+}
+
+.buttonClick{
+    background-color: lightblue;
+    margin-right: 10px;
+    outline: none;
 }

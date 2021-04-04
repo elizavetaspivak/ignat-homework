@@ -19,14 +19,16 @@ const Greeting: React.FC<GreetingPropsType> = (
     return (
         <div className={s.greeting}>
             <div>
-            <input value={name}
-                   onChange={setNameCallback}
-                   className={inputClass}
-                   onKeyPress={onEnter} />
+            <input
+                value={name}
+                onChange={setNameCallback}
+                className={inputClass}
+                onKeyPress={onEnter}
+            />
                    <div className={s.error}>{error}</div>
             </div>
-            <button onClick={addUser}>add</button>
-            <div>{totalUsers}</div>
+            <button className={s.add} disabled={error ? true : false} onClick={addUser}>add</button>
+            <div className={s.count}>{totalUsers}</div>
         </div>
     )
 }
