@@ -7,9 +7,18 @@ import HW4 from '../../../p2-homeworks/h4/HW4';
 import HW5 from '../../../p2-homeworks/h5/HW5';
 import HW6 from '../../../p2-homeworks/h6/HW6';
 import HW7 from '../../../p2-homeworks/h7/HW7';
+import HW8 from '../../../p2-homeworks/h8/HW8';
+import HW9 from '../../../p2-homeworks/h9/HW9';
+import {Provider} from 'react-redux';
+import store from '../../../p2-homeworks/h10/bll/store';
+import HW10 from '../../../p2-homeworks/h10/HW10';
+import HW11 from '../../../p2-homeworks/h11/HW11';
+import HW12 from '../../../p2-homeworks/h12/HW12';
+import {HW13} from '../../../p2-homeworks/h13/HW13';
 
 function App() {
     return (
+        <Provider store={store}>
         <div className={s.App}>
             <div>react homeworks:</div>
             {/*<HW1/>*/}
@@ -19,8 +28,14 @@ function App() {
             <HW5/>
             {/*<HW6/>*/}
             {/*<HW7/>*/}
-
+            {/*<HW8/>*/}
+            {/*<HW9/>*/}
+            {/*<HW10/>*/}
+            {/*<HW11/>*/}
+            {/*<HW12/>*/}
+            {/*<HW13/>*/}
         </div>
+        </Provider>
     )
 }
 
