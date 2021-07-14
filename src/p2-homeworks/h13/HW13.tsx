@@ -5,7 +5,9 @@ export function HW13() {
     return (
         <div className={s.box}>
             <p className="hw">Homeworks 13</p>
-            <Request/>
+            <div className={s.request}>
+                <Request/>
+            </div>
         </div>
     )
 }

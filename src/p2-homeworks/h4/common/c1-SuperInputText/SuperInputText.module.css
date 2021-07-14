@@ -1,15 +1,17 @@
 .superInput {
-    margin: 10px;
     background-color: white;
     border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5px;
     color: blue;
     outline: none;
 }
 
 .errorInput {
-    margin: 10px;
     background-color: white;
     border: 3px solid lime;
+    border-radius: 10px;
+    padding: 5px;
     color: blue;
     outline: none;
 }

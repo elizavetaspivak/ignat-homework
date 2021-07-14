@@ -1,5 +1,5 @@
-import React from "react";
-import s from "./HW12.module.css";
+import React from 'react';
+import s from './HW12.module.css';
 import SuperSelect from '../h7/common/c5-SuperSelect/SuperSelect';
 import {useDispatch, useSelector} from 'react-redux';
 import {changeThemeAC} from './bll/themeReducer';
@@ -21,11 +21,13 @@ function HW12() {
                 <span className={`${s[theme]} + ${s.text}`}>homeworks 12</span>
             </div>
             {/*should work (должно работать)*/}
-            <SuperSelect
-                options={themes}
-                onChangeOption={onChangeCallback}
-                value={theme}
-            />
+            <div className={s.selector}>
+                <SuperSelect
+                    options={themes}
+                    onChangeOption={onChangeCallback}
+                    value={theme}
+                />
+            </div>
 
             <hr/>
         </div>

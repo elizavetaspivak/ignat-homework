@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './p1-main/m1-ui/u1-app/App'
 import * as serviceWorker from './serviceWorker'
-import HW1 from "./p2-homeworks/h1/HW1";
 
 ReactDOM.render(
     <React.StrictMode>
         <App/>
-        <HW1 />
     </React.StrictMode>,
     document.getElementById("root")
 )
